@@ -7,7 +7,7 @@ app = Flask(__name__)
 # MySQL Configuration
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'  # Change if you have a different MySQL username
-app.config['MYSQL_PASSWORD'] = 'ComputingDP14!'  # Add your MySQL password if set
+app.config['MYSQL_PASSWORD'] = 'ComputingDP14!'  # Add your MySQL password if 
 app.config['MYSQL_DB'] = 'crm'  # Your schema name
 
 mysql = MySQL(app)
